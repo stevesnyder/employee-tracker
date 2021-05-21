@@ -1,24 +1,25 @@
-insert into department(name)
-values ("Web Development"),("Finance"),("Legal"),("Robotics"),("HR");
+USE employeesdb;
 
-insert into role(title, salary, department_id)
-values ("Web Developer", 90000, 1)
-,("Junior Developer", 70000, 1)
-,("Lead Robotics Engineer",150000,2)
-,("Robotics Engineer",120000,2)
-,("Accountant",125000,3)
-,("Legal Team Lead",250000,4)
-,("Lawyer",190000,4)
+INSERT INTO department(name)
+VALUES ("Robotics"), ("Legal"), ("Finance"), ("Web Development"), ("HR");
 
-insert into employee(first_name,last_name,role_id,manager_id)
-values ("Ray","Lewis",1,1)
-,("Chris","Brown",2,1)
-,("Snoop","Dogg",3,NULL)
-,("Lil","Wayne",4,2)
-,("Rick","Mortison",5,3)
-,("Billie","Eyelash",6, NULL)
-,("Sponge","Bob",7,4)
-,("Stephen","Segal",4,2)
+INSERT INTO role(title, salary, department_id)
+VALUES ("Lead Robotics Engineer", 150000, 1),
+("Legal Team Lead", 250000, 2),
+("Accountant", 125000, 3),
+("Senior Developer", 120000, 4),
+("Guy from HR", 20000, 5);
 
-insert into manager(first_name,last_name,department_id)
-values ("Snoop","Dogg",1),("Ray","Lewis", 2),("Joe","Rogan", 3),("Michael","Scott",4),("Dave","Chapelle",5);
+INSERT INTO employee(first_name, last_name, role_id, manager_id)
+VALUES("Lil", "Wayne", 1, NULL),
+("Snoop", "Dogg", 2, NULL),
+("Billie", "Eyelash", 3, NULL),
+("Peter", "Parker", 4, NULL),
+("Bruce", "Banner", 5, NULL);
+
+INSERT INTO manager(first_name, last_name, department_id)
+VALUES ("Peter", "Parker", 1),
+("Billie", "Eyelash", 2),
+("Snoop", "Dogg", 3),
+("Lil", "Wayne", 4),
+("Bruce", "Banner", 5);
