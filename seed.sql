@@ -16,10 +16,3 @@ VALUES("Lil", "Wayne", 1, NULL),
 ("Billie", "Eyelash", 3, NULL),
 ("Peter", "Parker", 4, NULL),
 ("Bruce", "Banner", 5, NULL);
-
-INSERT INTO manager(first_name, last_name, department_id)
-VALUES ("Peter", "Parker", 1),
-("Billie", "Eyelash", 2),
-("Snoop", "Dogg", 3),
-("Lil", "Wayne", 4),
-("Bruce", "Banner", 5);
