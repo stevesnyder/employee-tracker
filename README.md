@@ -9,6 +9,7 @@
   - [About the Repo](#about-the-repo)
   - [Contact](#contact)
   - [License](#license)
+  - [Video](#video-walkthrough)
 
   ## About the Project
 
@@ -41,6 +42,10 @@
   Github: stevesnyder
 
   ---
+  
+  ## Video Walkthrough
+  
+  https://user-images.githubusercontent.com/74982034/119429248-78c5fb80-bcdc-11eb-9a52-4d1ac93fd3f9.mp4
 
   ## License
 
